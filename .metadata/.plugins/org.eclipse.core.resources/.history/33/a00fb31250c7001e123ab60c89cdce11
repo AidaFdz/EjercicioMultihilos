@@ -1,0 +1,19 @@
+package aida;
+
+import java.io.File;
+import java.io.IOException;
+
+public class Hilo3Doctores implements Runnable{
+
+
+	public void run (ObjetoPaciente P, File urgencias) {
+		//Debemos tomar el objeto paciente y eliminarlo del archivo de urgencias
+		
+	}
+
+	@Override
+	public void run() {
+		System.out.println("No hay ninguna urgencia que atender en este momento");
+	}
+
+}

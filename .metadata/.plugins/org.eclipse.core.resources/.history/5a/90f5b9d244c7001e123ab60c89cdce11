@@ -1,0 +1,24 @@
+package aida;
+
+import java.io.IOException;
+
+public class MyMainVet {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//Necesitamos crear los doctores que estan disponibles hoy
+		try {
+			System.out.println("Iniciando documento de Doctores de Guardia");
+			FileManagementHelpers.rellenar_doctores ();
+		} catch (IOException e) {
+			// No se han podido crear los doctores
+			e.printStackTrace();
+		}
+		
+		//instanciar Hilos 1, 2, 3
+		//Thread hilo1= new Thread Hilo1Pacientes;
+		//Cuando llega una urgencia busca un doctor disponible de los 3 que hay disponibles 
+		
+	}
+
+}
